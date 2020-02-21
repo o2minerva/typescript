@@ -17,9 +17,10 @@
 ## Usage
 
 **compile all files:** `yarn build`
+
 **compile and run a single file:** `yarn start basics/functions`
 
-## Files
+## Source
 
 - basics
   - functions
