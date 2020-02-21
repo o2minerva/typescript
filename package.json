@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "func() { ./node_modules/.bin/tsc ./source/\"$1\".ts && node ./source/\"$1\".js; }; func",
+    "build": "./node_modules/.bin/tsc",
+    "clean": "rimraf source/**/*.js",
     "release": "./node_modules/.bin/release-it --no-npm.publish --git.tagName='v${version}' --github.release"
   },
   "repository": {
@@ -18,7 +20,8 @@
   },
   "homepage": "https://github.com/org-minerva/typescript#readme",
   "devDependencies": {
-    "release-it": "12.4.3"
+    "release-it": "12.4.3",
+    "rimraf": "3.0.2"
   },
   "dependencies": {
     "typescript": "3.7.5"

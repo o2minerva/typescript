@@ -16,9 +16,23 @@
 
 ## Usage
 
-**compile all files:** `yarn build`
+**compile all files:**
 
-**compile and run a single file:** `yarn start basics/functions`
+```
+yarn build
+```
+
+**compile and run a single file:**
+
+```
+yarn start basics/functions
+```
+
+**clean:**
+
+```
+yarn clean
+```
 
 ## Source
 
