@@ -8,6 +8,38 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/org-minerva/typescript.svg)
 ![GitHub All Releases](https://img.shields.io/github/downloads/org-minerva/typescript/total.svg)
 
+## Prerequisites
+
+- [Node = v10.15.x](https://nodejs.org/en/)
+- NPM >= v6.4.x
+- [Yarn >= v1.22.0](https://yarnpkg.com/en/docs/install#linux-tab) or `npm install -g yarn`
+
+## Usage
+
+**compile all files:** `yarn build`
+**compile and run a single file:** `yarn start basics/functions`
+
+## Files
+
+- basics
+  - functions
+  - objects
+- classes
+  - inheritance
+  - user
+- interfaces
+  - basic
+  - inherits
+  - interfaces
+  - point
+  - todo
+- types
+  - aliases
+  - guards
+  - scope
+  - types
+  - union
+
 ## Log
 
 Check [Releases](https://github.com/org-minerva/typescript/releases) for detailed changelog.
