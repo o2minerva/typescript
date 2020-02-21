@@ -1,3 +1,6 @@
+// config
+const _color = '\x1b[32m%s\x1b[34m%s\x1b[0m';
+
 class Typescript {
   version: string
 
@@ -9,15 +12,6 @@ class Typescript {
     return `[${name}]: Typescript version is ${this.version}`
   }
 }
-
-// class Car {
-//   readonly model: string
-//   readonly numberOfWheels: number = 4
-//
-//   constructor(theModel: string) {
-//     this.model = theModel
-//   }
-// }
 
 class Car {
   readonly numberOfWheels: number = 4
@@ -47,8 +41,8 @@ class Cat extends Animal {
 
 const cat = new Cat()
 cat.setVoice('test')
-console.log(cat.color)
-// cat.voice
+
+console.log(_color, cat.color, ' << should be black') // black
 
 // =====================
 

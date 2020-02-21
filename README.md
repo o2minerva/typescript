@@ -25,7 +25,7 @@ yarn build
 **compile and run a single file:**
 
 ```
-yarn start basics/functions
+yarn start classes/basic
 ```
 
 **clean:**
@@ -36,24 +36,19 @@ yarn clean
 
 ## Source
 
-- basics
-  - functions
-  - objects
 - classes
-  - inheritance
-  - user
+  - basic
+- functions
+  - basic
 - interfaces
   - basic
-  - inherits
-  - interfaces
-  - point
-  - todo
+- jsx
+  - operators
 - types
-  - aliases
+  - basic
+  - enum
+  - generic
   - guards
-  - scope
-  - types
-  - union
 
 ## Log
 
