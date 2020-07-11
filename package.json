@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/org-minerva/typescript.git"
+    "url": "git+https://github.com/o2minerva/typescript.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/org-minerva/typescript/issues"
+    "url": "https://github.com/o2minerva/typescript/issues"
   },
-  "homepage": "https://github.com/org-minerva/typescript#readme",
+  "homepage": "https://github.com/o2minerva/typescript#readme",
   "devDependencies": {
     "release-it": "12.4.3",
     "rimraf": "3.0.2"
